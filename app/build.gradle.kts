@@ -94,6 +94,13 @@ dependencies {
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
-    implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.runtime:runtime-livedata:1.5.1")
+    implementation("androidx.compose.material3:material3:1.2.0")
+    implementation("com.google.accompanist:accompanist-pager:0.30.1")
+    implementation("com.google.accompanist:accompanist-pager-indicators:0.30.1")
+    implementation("androidx.compose.ui:ui-tooling:1.1.0")
+
+
+
     debugImplementation(libs.androidx.ui.test.manifest)
 }
